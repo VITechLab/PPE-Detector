@@ -1,12 +1,12 @@
 # PPE Detector for Worker Safety
-The PPE Detector for Worker Safety - is a real-time computer vision model for PPE non-compliance detection in the industrial setting. Trained on a synthetic dataset of 100,000 images and finetuned on Real World dataset, it analyzes live footage from high-resolution cameras to identify workers missing any of the PPE items specified in safety regulations. The solution detects seven object classes: Bare Head, Helmet, Ear Protection, Welding Mask, Bare Chest, High Visibility Vest, Person. The ML model can be used in manufacturing, construction, steel, oil & gas, and other industrial environments.
+The PPE Detector for Worker Safety - is a real-time computer vision model for PPE non-compliance detection in the industrial setting. The solution detects seven object classes: Bare Head, Helmet, Ear Protection, Welding Mask, Bare Chest(NO Visibility Vest), High Visibility Vest, Person.
 
 ## Usage Information
 
 Using our model for real time prediction is as simple as this:
 
 ```python
-predictor = sage.predictor.RealTimePredictor(
+predictor = sagemaker.predictor.RealTimePredictor(
     ' your endpoint name ',
     sagemaker_session=sagemaker.Session(),
     content_type="image/jpeg"
