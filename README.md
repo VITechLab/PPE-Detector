@@ -1,5 +1,5 @@
 # PPE Detector for Worker Safety
-The PPE Detector for Worker Safety - is a real-time computer vision model for PPE non-compliance detection in the industrial setting. The solution detects seven object classes: Bare Head, Helmet, Ear Protection, Welding Mask, Bare Chest(NO Visibility Vest), High Visibility Vest, Person.
+[The PPE Detector for Worker Safety](https://aws.amazon.com/marketplace/pp/prodview-6gvzwuebead3o) - is a real-time computer vision model for PPE non-compliance detection in the industrial setting. The solution detects seven object classes: Bare Head, Helmet, Ear Protection, Welding Mask, Bare Chest(NO Visibility Vest), High Visibility Vest, Person.
 
 ## Usage Information
 
